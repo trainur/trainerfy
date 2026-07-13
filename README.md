@@ -278,7 +278,7 @@ The application is intended for local development and experimentation.
 ## Background
 
 Trainerfy was created as a short personal project based on Avery Li-Chun Wang’s paper, An Industrial-Strength Audio Search Algorithm. The paper presents an elegant and approachable method for identifying recordings through sparse time-frequency landmarks and fingerprint matching.
-I'd highly recommend the paper to anyone interested in audio processing, information retrieval, or implementing a music-identification system themselves, and even more so to try implementing the techniques in the paper yourself!
+I'd highly recommend the paper to anyone interested in how Shazam works at the basic level, and I'd even more so recommend you to try implementing the paper yourself!
 
 The project has provided experience with:
 
@@ -292,6 +292,6 @@ The project has provided experience with:
 
 ## Disclaimer
 
-Trainerfy is an educational project inspired by the general concept of audio fingerprinting. It is not affiliated with, endorsed by, or connected to Shazam or Apple.
+Trainerfy is an educational project. It is not affiliated with, endorsed by, or connected to Shazam or Apple.
 
 No copyrighted music is distributed with this repository.
