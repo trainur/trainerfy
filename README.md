@@ -203,8 +203,6 @@ Using an audio tag editor such as MusicBrainz Picard, Mp3tag, or Kid3 is recomme
 
 The generated fingerprint database is local and is not included in this repository.
 
-Do not commit copyrighted music files or generated databases to the repository.
-
 ## Running the application
 
 ### Start the backend
