@@ -197,9 +197,9 @@ Trainerfy must generate fingerprints for a local collection of reference songs b
 
 By default, Trainerfy loads .mp3 files from:
 
-~/Music/trainerfy
+~/Music
 
-Creat the database from the backend directory:
+Create the database from the backend directory:
 
 ```bash
 python databuilder.py --new
