@@ -78,30 +78,6 @@ The generated fingerprints are based on relationships between prominent frequenc
 * CSS
 * Browser MediaRecorder API
 
-## Project structure
-
-```text
-trainerfy/
-├── trainerfy-backend/
-│   ├── databuilder.py
-│   ├── fingerprinter.py
-│   ├── main.py
-│   ├── matcher.py
-│   └── requirements.txt
-│
-├── trainerfy-frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
-│
-├── .gitignore
-└── README.md
-```
-
 ## Requirements
 
 Before running Trainerfy, install:
@@ -114,7 +90,7 @@ FFmpeg is a system dependency and is not installed through `requirements.txt`.
 
 ### Install FFmpeg
 
-#### Fedora or Nobara
+#### Fedora
 
 ```bash
 sudo dnf install ffmpeg
@@ -197,9 +173,7 @@ npm install
 
 Trainerfy must generate fingerprints for a local collection of reference songs before it can identify them.
 
-By default, Trainerfy loads .mp3 files from:
-
-~/Music
+By default, Trainerfy loads ```.mp3``` files from ```~/Music```
 
 Create the database from the backend directory:
 
@@ -303,19 +277,9 @@ Audio recordings are sent only to the locally running Flask backend for identifi
 
 The application is intended for local development and experimentation.
 
-## Known limitations
-
-* Identification is limited to songs already added to the local database.
-* Matching may be unreliable with very short or noisy recordings.
-* Different edits or live versions may not match the indexed recording.
-* Database generation may take time for large music collections.
-* The Flask development server is not intended for public production deployment.
-* The project currently uses a simplified fingerprinting and ranking approach.
-
 ## Background
 
 Trainerfy was created as a short personal project based on Avery Li-Chun Wang’s paper, An Industrial-Strength Audio Search Algorithm. The paper presents an elegant and approachable method for identifying recordings through sparse time-frequency landmarks and fingerprint matching.
-
 I'd highly recommend the paper to anyone interested in audio processing, information retrieval, or implementing a music-identification system themselves, and even more so to try implementing the techniques in the paper yourself!
 
 The project has provided experience with:
