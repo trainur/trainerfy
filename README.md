@@ -6,6 +6,8 @@ The project consists of a Python and Flask backend for audio processing and a Re
 
 > This is an experimental portfolio project rather than a production-ready music-identification service.
 
+![Trainerfy demonstration](trainerfy-demo.gif)
+
 ## Features
 
 * Records audio directly from the browser
