@@ -1,0 +1,12 @@
+# Web API
+Flask
+flask-cors
+
+# Audio processing and fingerprinting
+librosa
+numpy
+scipy
+mutagen
+
+# Visualisation/debugging
+matplotlib

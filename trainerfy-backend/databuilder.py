@@ -5,13 +5,14 @@ import base64
 import argparse
 import fingerprinter
 import shutil
+from pathlib import Path
 
 AUDIO_TABLE_NAME = "audio_data"
 FINGERPRINT_TABLE_NAME = "fingerprint_data"
 DATABASE_NAME = "audio_data"
 DATABASE_PATH = f"./{DATABASE_NAME}"
 
-MUSIC_FOLDER = "/home/trainer/Music/trainerfy"
+MUSIC_FOLDER = Path.home() / "Music"
 
 def audio_exists(file_name):
     if not os.path.isfile(DATABASE_PATH):

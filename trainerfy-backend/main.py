@@ -39,10 +39,6 @@ def identify():
 
     audio_path = convert_to_wav(audio_path)
 
-    with open(audio_path, "rb") as src:
-        with open("debug_audio.wav", "wb") as dst:
-            dst.write(src.read())
-
     audio, sr = librosa.load(audio_path, sr=22050)
     app.logger.info(f"Duration: {len(audio)/sr:.2f}s")
     app.logger.info(f"Max amplitude: {audio.max():.4f}")
