@@ -221,3 +221,7 @@ __marimo__/
 
 # Personal database
 trainerfy-backend/audio_data
+
+# Debug audio
+trainerfy-backend/debug_audio.wav
+trainerfy-backend/debug_audio_original.webm
